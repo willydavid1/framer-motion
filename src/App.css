@@ -1,0 +1,32 @@
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 3px dotted gray;
+  pointer-events: none;
+  margin-bottom: 20px;
+}
+
+
+.example-container div {
+  background: gainsboro;
+  border-radius: 30px;
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+}
+
+.refresh {
+  padding: 10px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
